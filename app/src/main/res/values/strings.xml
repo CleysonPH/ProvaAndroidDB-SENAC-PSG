@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BMI Calculator 2.0</string>
+    <string name="list_settings">Historic</string>
+    <string name="peso">Enter your weight (kg):</string>
+    <string name="altura">Enter your height (m):</string>
+    <string name="hint_peso">Ex.: 80</string>
+    <string name="hint_altura">Ex.: 1.70</string>
+    <string name="botao_imc">Calculate BMI</string>
+    <string name="txt_resultado">Your BMI: </string>
+    <string name="abaixo_peso">You are underweight!</string>
+    <string name="peso_ideal">You are the perfect weight!</string>
+    <string name="acima_peso">You are slightly overweight!</string>
+    <string name="obesidade_I">You are with obesity grade I!</string>
+    <string name="obesidade_II">You are with obesity grade II!</string>
+    <string name="obesidade_III">You are Obesity grade III!</string>
+    <string name="toast_ideal">Congratulations!</string>
+    <string name="toast_anormal">More care of your health!</string>
+    <string name="title_activity_historico">Historic</string>
+    <string name="peso_historico_row">Weight:</string>
+    <string name="altura_historico_row">Height:</string>
+    <string name="imc_historico_row">BMI:</string>
+    <string name="sem_registro">History is clean!</string>
+    <string name="list_clean">Clean history</string>
+    <string name="historico_foi_limpo">The history has been clean!</string>
+    <string name="toast_apagar_item">Registration deleted!</string>
+    <string name="title_activity_alterar_imc">Change Registration</string>
+    <string name="codigo">Code</string>
+    <string name="recalcular_imc">Calculate BMI</string>
+    <string name="salvar">Save Changes</string>
+    <string name="alterar_sucesso">Successfully changed record!</string>
+    <string name="nao_clicou_em_recalcular">Before saving your changes click in CALCULATE BMI!</string>
+</resources>

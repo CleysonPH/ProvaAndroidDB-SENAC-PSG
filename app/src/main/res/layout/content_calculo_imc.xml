@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_calculo_imc" tools:context=".CalculoImcActivity"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextView"
+        android:text="@string/peso" />
+
+    <EditText
+        android:id="@+id/edtPeso"
+        android:hint="@string/hint_peso"
+        style="@style/EditText">
+
+        <requestFocus/>
+    </EditText>
+
+    <TextView
+        style="@style/TextView"
+        android:layout_marginTop="@dimen/views_vertical_margin"
+        android:text="@string/altura"/>
+
+    <EditText
+        android:id="@+id/edtAltura"
+        android:hint="@string/hint_altura"
+        style="@style/EditText"/>
+
+    <Button
+        style="@style/Button"
+        android:id="@+id/btnCalcular"
+        android:text="@string/botao_imc" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        style="@style/TextView_User"/>
+
+    <TextView
+        android:id="@+id/txtSituacao"
+        style="@style/TextView_User"/>
+
+</LinearLayout>

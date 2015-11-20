@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CalculadoraIMC 2.0</string>
+    <string name="list_settings">Histórico</string>
+    <string name="peso">Digite o seu peso(Kg):</string>
+    <string name="altura">Digite a sua altura(m):</string>
+    <string name="hint_peso">Ex.: 80</string>
+    <string name="hint_altura">Ex.: 1.70</string>
+    <string name="botao_imc">Calcular IMC</string>
+    <string name="txt_resultado">Seu IMC: </string>
+    <string name="abaixo_peso">Você está abaixo do peso ideal!</string>
+    <string name="peso_ideal">Você está com o peso ideal!</string>
+    <string name="acima_peso">Você está levemente acima do peso ideal!</string>
+    <string name="obesidade_I">Você está com Obesidade grau I!</string>
+    <string name="obesidade_II">Você está com Obesidade grau II!</string>
+    <string name="obesidade_III">Você está com Obesidade grau III!</string>
+    <string name="toast_ideal">Meus parabéns!</string>
+    <string name="toast_anormal">Cuide mais da sua saúde!</string>
+    <string name="title_activity_historico">Histórico</string>
+    <string name="peso_historico_row">Peso:</string>
+    <string name="altura_historico_row">Altura:</string>
+    <string name="imc_historico_row">IMC:</string>
+    <string name="sem_registro">O histórico está limpo!</string>
+    <string name="list_clean">Limpar histórico</string>
+    <string name="historico_foi_limpo">O histórico foi limpo!</string>
+    <string name="toast_apagar_item">Registro deletado!</string>
+    <string name="codigo">Código</string>
+    <string name="recalcular_imc">Recalcular IMC</string>
+    <string name="salvar">Salvar Alterações</string>
+    <string name="alterar_sucesso">Registro alterado com sucesso!</string>
+    <string name="nao_clicou_em_recalcular">Antes de salvar as alterações clique em RECALCULAR IMC!</string>
+</resources>
